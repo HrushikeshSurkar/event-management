@@ -1,0 +1,38 @@
+header {
+    background-color: #282c34;
+    padding: 1rem;
+    color: white;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h1 {
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+
+            li {
+                margin-left: 20px;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+
+                    &:hover {
+                        background-color: #282c34;
+                        border-radius: 5px;
+                        border: 1px solid white;
+                        padding: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
